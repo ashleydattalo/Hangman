@@ -14,7 +14,7 @@ public class HangmanFigure extends JPanel {
     public HangmanFigure() {
         super();
         guesses = 0;
-        setPreferredSize(new Dimension(300, 300));
+        setPreferredSize(new Dimension(600, 600));
         setOpaque(true);
     }
     
