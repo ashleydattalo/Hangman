@@ -21,7 +21,7 @@ public class MainWindow extends JFrame {
     public MainWindow(String toGuess) {
         remainingGuesses = 10;
         wrongGuesses = "";
-        word = toGuess; //get rid if nothing works
+        word = toGuess; 
         visible = "";
         
         for(int i = 0; i < word.length(); ++i) {
